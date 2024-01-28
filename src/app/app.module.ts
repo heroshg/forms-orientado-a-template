@@ -13,7 +13,7 @@ import { MaiorIdadeDirective } from './directives/maior-idade.directive';
 import { ValidandoCepDirective } from './directives/validando-cep.directive';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, CadastroComponent, SucessoCadastroComponent, MensagemComponent, MaiorIdadeDirective, ValidandoCepDirective],
+  declarations: [AppComponent, FooterComponent, CadastroComponent, SucessoCadastroComponent, MensagemComponent, MaiorIdadeDirective, ValidandoCepDirective],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
